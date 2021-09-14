@@ -1,5 +1,5 @@
 # async_django_chatroom
-A chatroom using django asynchrously with websockets
+A chatroom using django asynchrously with channels and websockets
 
 pip3 instaal django
 pip3 install channels
@@ -22,3 +22,5 @@ python3 manage.py runserver
 ERROR -->  Cannot import ASGI_APPLICATION module 'core.routing'
 |--> add routing.py file in core to act as the router between ASGI (Daphine) and Consumer(s)
 |--> add routing.py file in chat too
+add class in consumers.py
+add script with chatsocket variable in base.html, after pasting the bootstra boilerplate
