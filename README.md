@@ -1,7 +1,7 @@
 # async_django_chatroom
 A chatroom using django asynchrously with channels and websockets
 
-pip3 instaal django
+pip3 install django
 pip3 install channels
 django-admin startproject core .
 python3 manage.py startapp chat
