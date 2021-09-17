@@ -1,5 +1,6 @@
 # async_django_chatroom
 A chatroom using django asynchrously with channels and websockets
+https://www.youtube.com/watch?v=F4nwRQPXD8w
 
 pip3 install django
 pip3 install channels
